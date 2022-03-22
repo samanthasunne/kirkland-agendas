@@ -14,15 +14,15 @@ properties:
     type: number
     description: >-
       The DocumentCloud project ID of the project the documents should be uploaded in to
-    default: 207338
+    default: 207379
   keywords:
     type: array
     items:
       type: string
     description: Keywords to search and notify on
     default:
-      - court
-      - foia
+      - meeting
+      - zoom
   filetypes:
     type: array
     items:
